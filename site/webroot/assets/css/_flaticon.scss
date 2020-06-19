@@ -1,0 +1,267 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/07/2017 22:37
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-mountain-4:before { content: "\f100"; }
+.flaticon-mountain-3:before { content: "\f101"; }
+.flaticon-mountain-2:before { content: "\f102"; }
+.flaticon-tools-3:before { content: "\f103"; }
+.flaticon-tools-2:before { content: "\f104"; }
+.flaticon-menu-down:before { content: "\f105"; }
+.flaticon-site-tech-11:before { content: "\f106"; }
+.flaticon-nature-11:before { content: "\f107"; }
+.flaticon-site-tech-10:before { content: "\f108"; }
+.flaticon-anergy-6:before { content: "\f109"; }
+.flaticon-energy-7:before { content: "\f10a"; }
+.flaticon-energy-8:before { content: "\f10b"; }
+.flaticon-site-tech-17:before { content: "\f10c"; }
+.flaticon-site-tech-13:before { content: "\f10d"; }
+.flaticon-site-tech-12:before { content: "\f10e"; }
+.flaticon-site-tech-18:before { content: "\f10f"; }
+.flaticon-site-tech-15:before { content: "\f110"; }
+.flaticon-site-tech-14:before { content: "\f111"; }
+.flaticon-regua:before { content: "\f112"; }
+.flaticon-site-tech-16:before { content: "\f113"; }
+.flaticon-operadora-9:before { content: "\f114"; }
+.flaticon-operadora-8:before { content: "\f115"; }
+.flaticon-operadora-7:before { content: "\f116"; }
+.flaticon-route-6:before { content: "\f117"; }
+.flaticon-realidade:before { content: "\f118"; }
+.flaticon-pin-area-4:before { content: "\f119"; }
+.flaticon-pin-area-3:before { content: "\f11a"; }
+.flaticon-delete:before { content: "\f11b"; }
+.flaticon-delete-2:before { content: "\f11c"; }
+.flaticon-energy-9:before { content: "\f11d"; }
+.flaticon-route-3:before { content: "\f11e"; }
+.flaticon-layers-1:before { content: "\f11f"; }
+.flaticon-layers:before { content: "\f120"; }
+.flaticon-juridico:before { content: "\f121"; }
+.flaticon-people:before { content: "\f122"; }
+.flaticon-site-tech-9:before { content: "\f123"; }
+.flaticon-mapgps:before { content: "\f124"; }
+.flaticon-globo:before { content: "\f125"; }
+.flaticon-gps-1:before { content: "\f126"; }
+.flaticon-gps-2:before { content: "\f127"; }
+.flaticon-people-gps:before { content: "\f128"; }
+.flaticon-energy-10:before { content: "\f129"; }
+.flaticon-shop-3:before { content: "\f12a"; }
+.flaticon-nature:before { content: "\f12b"; }
+.flaticon-site-tech-8:before { content: "\f12c"; }
+.flaticon-tools-1:before { content: "\f12d"; }
+.flaticon-site-tech-7:before { content: "\f12e"; }
+.flaticon-energy-5:before { content: "\f12f"; }
+.flaticon-energy-1:before { content: "\f130"; }
+.flaticon-nature-2:before { content: "\f131"; }
+.flaticon-energy-13:before { content: "\f132"; }
+.flaticon-site-tech-6:before { content: "\f133"; }
+.flaticon-site-tech-5:before { content: "\f134"; }
+.flaticon-energy-2:before { content: "\f135"; }
+.flaticon-nature-12:before { content: "\f136"; }
+.flaticon-nature-7:before { content: "\f137"; }
+.flaticon-nature-8:before { content: "\f138"; }
+.flaticon-site-tech-4:before { content: "\f139"; }
+.flaticon-nature-10:before { content: "\f13a"; }
+.flaticon-footbal-pin:before { content: "\f13b"; }
+.flaticon-nature-6:before { content: "\f13c"; }
+.flaticon-summer:before { content: "\f13d"; }
+.flaticon-pin-area-1:before { content: "\f13e"; }
+.flaticon-nature-3:before { content: "\f13f"; }
+.flaticon-broom:before { content: "\f140"; }
+.flaticon-event-oficial:before { content: "\f141"; }
+.flaticon-pin-outer:before { content: "\f142"; }
+.flaticon-mountain:before { content: "\f143"; }
+.flaticon-weather:before { content: "\f144"; }
+.flaticon-operadora-1:before { content: "\f145"; }
+.flaticon-radio-tower:before { content: "\f146"; }
+.flaticon-nature-4:before { content: "\f147"; }
+.flaticon-tool:before { content: "\f148"; }
+.flaticon-roof-top-3:before { content: "\f149"; }
+.flaticon-nature-1:before { content: "\f14a"; }
+.flaticon-round-location-indicator:before { content: "\f14b"; }
+.flaticon-money-1:before { content: "\f14c"; }
+.flaticon-shop-2:before { content: "\f14d"; }
+.flaticon-painter-palette:before { content: "\f14e"; }
+.flaticon-energy-14:before { content: "\f14f"; }
+.flaticon-battery-plus:before { content: "\f150"; }
+.flaticon-plug-on-battery:before { content: "\f151"; }
+.flaticon-low-battery:before { content: "\f152"; }
+.flaticon-battery-charged:before { content: "\f153"; }
+.flaticon-battery-broken:before { content: "\f154"; }
+.flaticon-battery-minus:before { content: "\f155"; }
+.flaticon-site-tech-3:before { content: "\f156"; }
+.flaticon-shop-4:before { content: "\f157"; }
+.flaticon-shop-1:before { content: "\f158"; }
+.flaticon-site-tech-2:before { content: "\f159"; }
+.flaticon-energy-12:before { content: "\f15a"; }
+.flaticon-site-tech:before { content: "\f15b"; }
+.flaticon-roof-top-2:before { content: "\f15c"; }
+.flaticon-roof-top-1:before { content: "\f15d"; }
+.flaticon-transport-1:before { content: "\f15e"; }
+.flaticon-nature-5:before { content: "\f15f"; }
+.flaticon-operadora-4:before { content: "\f160"; }
+.flaticon-event-cultural:before { content: "\f161"; }
+.flaticon-route-7:before { content: "\f162"; }
+.flaticon-poligono-search:before { content: "\f163"; }
+.flaticon-energy-3:before { content: "\f164"; }
+.flaticon-energy-4:before { content: "\f165"; }
+.flaticon-operadora-2:before { content: "\f166"; }
+.flaticon-event-social:before { content: "\f167"; }
+.flaticon-pharmacy-location:before { content: "\f168"; }
+.flaticon-club-location:before { content: "\f169"; }
+.flaticon-national-park-pin:before { content: "\f16a"; }
+.flaticon-airport-pin:before { content: "\f16b"; }
+.flaticon-shopping-pin:before { content: "\f16c"; }
+.flaticon-nformation-pin:before { content: "\f16d"; }
+.flaticon-building-pin:before { content: "\f16e"; }
+.flaticon-university-pin:before { content: "\f16f"; }
+.flaticon-bank-pin:before { content: "\f170"; }
+.flaticon-nature-9:before { content: "\f171"; }
+    
+    $font-Flaticon-mountain-4: "\f100";
+    $font-Flaticon-mountain-3: "\f101";
+    $font-Flaticon-mountain-2: "\f102";
+    $font-Flaticon-tools-3: "\f103";
+    $font-Flaticon-tools-2: "\f104";
+    $font-Flaticon-menu-down: "\f105";
+    $font-Flaticon-site-tech-11: "\f106";
+    $font-Flaticon-nature-11: "\f107";
+    $font-Flaticon-site-tech-10: "\f108";
+    $font-Flaticon-anergy-6: "\f109";
+    $font-Flaticon-energy-7: "\f10a";
+    $font-Flaticon-energy-8: "\f10b";
+    $font-Flaticon-site-tech-17: "\f10c";
+    $font-Flaticon-site-tech-13: "\f10d";
+    $font-Flaticon-site-tech-12: "\f10e";
+    $font-Flaticon-site-tech-18: "\f10f";
+    $font-Flaticon-site-tech-15: "\f110";
+    $font-Flaticon-site-tech-14: "\f111";
+    $font-Flaticon-regua: "\f112";
+    $font-Flaticon-site-tech-16: "\f113";
+    $font-Flaticon-operadora-9: "\f114";
+    $font-Flaticon-operadora-8: "\f115";
+    $font-Flaticon-operadora-7: "\f116";
+    $font-Flaticon-route-6: "\f117";
+    $font-Flaticon-realidade: "\f118";
+    $font-Flaticon-pin-area-4: "\f119";
+    $font-Flaticon-pin-area-3: "\f11a";
+    $font-Flaticon-delete: "\f11b";
+    $font-Flaticon-delete-2: "\f11c";
+    $font-Flaticon-energy-9: "\f11d";
+    $font-Flaticon-route-3: "\f11e";
+    $font-Flaticon-layers-1: "\f11f";
+    $font-Flaticon-layers: "\f120";
+    $font-Flaticon-juridico: "\f121";
+    $font-Flaticon-people: "\f122";
+    $font-Flaticon-site-tech-9: "\f123";
+    $font-Flaticon-mapgps: "\f124";
+    $font-Flaticon-globo: "\f125";
+    $font-Flaticon-gps-1: "\f126";
+    $font-Flaticon-gps-2: "\f127";
+    $font-Flaticon-people-gps: "\f128";
+    $font-Flaticon-energy-10: "\f129";
+    $font-Flaticon-shop-3: "\f12a";
+    $font-Flaticon-nature: "\f12b";
+    $font-Flaticon-site-tech-8: "\f12c";
+    $font-Flaticon-tools-1: "\f12d";
+    $font-Flaticon-site-tech-7: "\f12e";
+    $font-Flaticon-energy-5: "\f12f";
+    $font-Flaticon-energy-1: "\f130";
+    $font-Flaticon-nature-2: "\f131";
+    $font-Flaticon-energy-13: "\f132";
+    $font-Flaticon-site-tech-6: "\f133";
+    $font-Flaticon-site-tech-5: "\f134";
+    $font-Flaticon-energy-2: "\f135";
+    $font-Flaticon-nature-12: "\f136";
+    $font-Flaticon-nature-7: "\f137";
+    $font-Flaticon-nature-8: "\f138";
+    $font-Flaticon-site-tech-4: "\f139";
+    $font-Flaticon-nature-10: "\f13a";
+    $font-Flaticon-footbal-pin: "\f13b";
+    $font-Flaticon-nature-6: "\f13c";
+    $font-Flaticon-summer: "\f13d";
+    $font-Flaticon-pin-area-1: "\f13e";
+    $font-Flaticon-nature-3: "\f13f";
+    $font-Flaticon-broom: "\f140";
+    $font-Flaticon-event-oficial: "\f141";
+    $font-Flaticon-pin-outer: "\f142";
+    $font-Flaticon-mountain: "\f143";
+    $font-Flaticon-weather: "\f144";
+    $font-Flaticon-operadora-1: "\f145";
+    $font-Flaticon-radio-tower: "\f146";
+    $font-Flaticon-nature-4: "\f147";
+    $font-Flaticon-tool: "\f148";
+    $font-Flaticon-roof-top-3: "\f149";
+    $font-Flaticon-nature-1: "\f14a";
+    $font-Flaticon-round-location-indicator: "\f14b";
+    $font-Flaticon-money-1: "\f14c";
+    $font-Flaticon-shop-2: "\f14d";
+    $font-Flaticon-painter-palette: "\f14e";
+    $font-Flaticon-energy-14: "\f14f";
+    $font-Flaticon-battery-plus: "\f150";
+    $font-Flaticon-plug-on-battery: "\f151";
+    $font-Flaticon-low-battery: "\f152";
+    $font-Flaticon-battery-charged: "\f153";
+    $font-Flaticon-battery-broken: "\f154";
+    $font-Flaticon-battery-minus: "\f155";
+    $font-Flaticon-site-tech-3: "\f156";
+    $font-Flaticon-shop-4: "\f157";
+    $font-Flaticon-shop-1: "\f158";
+    $font-Flaticon-site-tech-2: "\f159";
+    $font-Flaticon-energy-12: "\f15a";
+    $font-Flaticon-site-tech: "\f15b";
+    $font-Flaticon-roof-top-2: "\f15c";
+    $font-Flaticon-roof-top-1: "\f15d";
+    $font-Flaticon-transport-1: "\f15e";
+    $font-Flaticon-nature-5: "\f15f";
+    $font-Flaticon-operadora-4: "\f160";
+    $font-Flaticon-event-cultural: "\f161";
+    $font-Flaticon-route-7: "\f162";
+    $font-Flaticon-poligono-search: "\f163";
+    $font-Flaticon-energy-3: "\f164";
+    $font-Flaticon-energy-4: "\f165";
+    $font-Flaticon-operadora-2: "\f166";
+    $font-Flaticon-event-social: "\f167";
+    $font-Flaticon-pharmacy-location: "\f168";
+    $font-Flaticon-club-location: "\f169";
+    $font-Flaticon-national-park-pin: "\f16a";
+    $font-Flaticon-airport-pin: "\f16b";
+    $font-Flaticon-shopping-pin: "\f16c";
+    $font-Flaticon-nformation-pin: "\f16d";
+    $font-Flaticon-building-pin: "\f16e";
+    $font-Flaticon-university-pin: "\f16f";
+    $font-Flaticon-bank-pin: "\f170";
+    $font-Flaticon-nature-9: "\f171";

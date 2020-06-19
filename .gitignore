@@ -1,0 +1,9 @@
+/nbproject
+site/webroot/package-lock.json
+site/webroot/mapa/package-lock.json
+/site/vendor/*
+/database/etl/site_telxius/entrada_exemplo
+/database/etl/sharing/entrada_exemplo
+/database/etl/anatel_operadora/entrada_exemplo
+solicitacao
+/site/nbproject

@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>TELXIUS</title>
+
+   <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+         <link href="css/easyui.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu-vertical.css" rel="stylesheet">
+    <!-- jquery ui -->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top telxius-menu">
+      <div class="telxius-header">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <button class="btn btn-default navbar-btn yay-toggle" type="button"><i class="fa fa-bars"></i></button>
+            <a class="navbar-brand" href="index.htm"> <img src="img/logo.png" alt="Logo" width="110"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+               <i class="fa fa-envelope" aria-hidden="true"></i>
+               <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mensagem 1</a></li>
+                <li><a href="#">Mensagem 2</a></li>
+                <li><a href="#">Mensagem 3</a></li>
+                <li><a href="#">Mensagem 4</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+               <i class="fa fa-user" aria-hidden="true"></i>
+               <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Alterar senha</a></li>
+                <li><a href="#">Sair</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+          
+        </div>
+      </div>
+    </nav>
+    <div class="yaybar yay-hide-on-content-click yay-overlay yay-gestures">
+      <div class="nano has-scrollbar">
+        <div class="nano-content" tabindex="0" style="right: -15px;">
+          
+          <ul>
+            <li class="label">Menu</li>
+            <li class="active">
+              <a href="#"><i class="fa fa-dashboard"></i> Dashboard </a>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-indent"></i> Menu Levels<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li>
+                  <a class="yay-sub-toggle" href="#">Second Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                  <ul>
+                    <li>
+                      <a class="yay-sub-toggle" href="#">Third Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                      <ul>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="yay-sub-toggle" href="#">Third Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                      <ul>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="label">Elements</li>
+            <li>
+              <a><i class="fa fa-css3"></i> CSS</a>
+            </li>
+
+            <li>
+              <a><i class="fa fa-cubes"></i> UI Elements <span class="badge">7</span></a>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-check-square-o"></i> Forms<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#"><i class="fa fa-cubes"></i> Base Elements</a>
+                </li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i> Checkout</a>
+                </li>
+                <li><a href="#"><i class="fa fa-comment"></i> Contacts</a>
+                </li>
+                <li><a href="#"><i class="fa fa-sign-in"></i> Login</a>
+                </li>
+                <li><a href="#"><i class="fa fa-edit"></i> Register</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-globe"></i> Pages<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#">Profile</a>
+                </li>
+
+                <li><a href="#">Forgot Password</a>
+                </li>
+                <li><a href="#">Screen Lock</a>
+                </li>
+                <li><a href="#">Sign In</a>
+                </li>
+                <li><a href="#">Sign Up</a>
+                </li>
+                <li><a href="#">404</a>
+                </li>
+                <li><a href="#">500</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-envelope"></i> Mailbox<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#">Inbox</a>
+                </li>
+                <li><a href="#">Compose</a>
+                </li>
+                <li><a href="#">View</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-bar-chart"></i> Charts </a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-magic"></i> Widgets </a>
+            </li>
+
+            <li class="label">Stats</li>
+            <li class="content">
+              <span><i class="fa fa-spinner"></i> Server Load</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  <span class="sr-only">60%</span>
+                </div>
+              </div>
+
+              <span><i class="fa fa-thumbs-o-up"></i> User Satisfaction</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <span class="sr-only">90% Complete (success)</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      <div class="nano-pane"><div class="nano-slider" style="height: 47px; transform: translate(0px, 0px);"></div></div></div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="index.htm">Principal</a></li>
+            <li><a href="#">Homologação</a></li>
+            <li class="active">Nova homologação</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-telxius no-border">
+            <div class="panel-heading ">
+              <h3 class="panel-title">Nova homologação - <small>Nome do ciclo</small></h3>
+            </div>
+            <div class="panel-body">
+              <!-- tabs -->
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs telxius-tabs margin-top-10" role="tablist">
+                <li role="presentation" class="active"><a href="#cronograma" aria-controls="cronograma" role="tab" data-toggle="tab">CRONOGRAMA</a></li>
+                <li role="presentation"><a href="#caract-principais" aria-controls="caract-principais" role="tab" data-toggle="tab">CARACTERÍSTICAS PRINCIPAIS</a></li>
+                <li role="presentation"><a href="#falhas" aria-controls="falhas" role="tab" data-toggle="tab">FALHAS</a></li>
+                <li role="presentation"><a href="#docs" aria-controls="docs" role="tab" data-toggle="tab">DOCUMENTOS</a></li>
+              </ul>
+              <div class="col-xs-12 telxius-content">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="cronograma">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <form>
+                          <div class="row">
+                            <div class="col-xs-8">
+                              <div class="form-group">
+                                <label for="nomeCiclo" class="telxius-label"> Nome do ciclo </label>
+                                <input type="text" class="form-control" id="nomeCiclo" placeholder="">
+                              </div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="form-group">
+                                <label for="status" class="telxius-label"><i class="fa fa-asterisk" aria-hidden="true"></i> Status </label>
+                                <select class="form-control" id="status">
+                                  <option>Selecione</option>
+                                  <option>A Iniciar</option>
+                                  <option>Em Andamento</option>
+                                  <option>Paralisado</option>
+                                  <option>Finalizado</option>
+                                  <option>Homologado</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <div class="form-group">
+                                <label for="perfil" class="telxius-label"><i class="fa fa-asterisk" aria-hidden="true"></i> Perfil </label>
+                                <select class="form-control" id="perfil">
+                                  <option>Selecione</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="form-group">
+                                <label for="fabricante" class="telxius-label"><i class="fa fa-asterisk" aria-hidden="true"></i> Fabricante </label>
+                                <select class="form-control" id="fabricante">
+                                  <option>Selecione</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <div class="form-group">
+                                <label for="tipoHomologacao" class="telxius-label"><i class="fa fa-asterisk" aria-hidden="true"></i> Tipo de homologação </label>
+                                <select class="form-control" id="tipoHomologacao">
+                                  <option>Selecione</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="form-group">
+                                <label for="versaoHardware" class="telxius-label">Versão de hardware </label>
+                                <input type="text" class="form-control" id="versaoHardware" placeholder="">
+                              </div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="form-group">
+                                <label for="versaoSoftware" class="telxius-label">Versão de Software </label>
+                                <input type="text" class="form-control" id="versaoSoftware" placeholder="">
+                              </div>
+                            </div>
+                          </div>
+                         <fieldset>
+                         <legend>TESTES</legend>
+                            <div class="row">
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="planejadaInicial" class="telxius-label">Data Início Planejada </label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="planejadaInicial" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="planejadaInicial"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="planejadaFinal" class="telxius-label">Data Fim Planejada </label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="planejadaFinal" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="planejadaFinal"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="efetivaInicial" class="telxius-label">Data Início Efetiva </label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="efetivaInicial" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="efetivaInicial"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="efetivaFinal" class="telxius-label">Data Final Efetiva</label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="efetivaFinal" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="efetivaFinal"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <fieldset class="margin-top-10">
+                         <legend>CERTIFICADO</legend>
+                            <div class="row">
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="planejadaEmissao" class="telxius-label">Data Aprovação Planejada </label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="planejadaEmissao" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="planejadaEmissao"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <label for="emitidaEmissao" class="telxius-label">Data Aprovação Efetiva </label>
+                                  <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="emitidaEmissao" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="emitidaEmissao"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-6">
+                                <div class="form-group">
+                                  <label for="certHomologacao" class="telxius-label"> Certificado de Homologação </label>
+                                  
+                                  <div id="actions" class="row">
+
+                                  <div class="col-xs-5">
+                                    <!-- The fileinput-button span is used to style the file input field as button -->
+                                    <span class="btn btn-success fileinput-button dz-clickable">
+                                        <i class="glyphicon glyphicon-plus"></i>
+                                        <span>Selecionar arquivos...</span>
+                                    </span>
+                                  </div>
+
+                                  <div class="col-xs-7">
+                                    <!-- The global file processing state -->
+                                    <span class="fileupload-process">
+                                      <div id="total-progress" class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                                        <div class="progress-bar progress-bar-success" style="width:0%;" data-dz-uploadprogress=""></div>
+                                      </div>
+                                    </span>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="caract-principais">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <form>
+                         <fieldset>
+                         <legend>GRUPO 1</legend>
+                            <div class="row">
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 1
+                                    </label>
+                                  </div>
+                                  <div class="checkbox disabled">
+                                    <label>
+                                      <input type="checkbox" value="" disabled>
+                                      Disabilitado
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 9
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 2
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 6
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 10
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 3
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 7
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 11
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 4
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 8
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 12
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <fieldset class="margin-top-10">
+                         <legend>GRUPO 2</legend>
+                            <div class="row">
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 1
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 5
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 9
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 2
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 6
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 10
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 3
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 7
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 11
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 4
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 8
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 12
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <fieldset class="margin-top-10">
+                         <legend>GRUPO 3</legend>
+                            <div class="row">
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 1
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 5
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 9
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 2
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 6
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 10
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 3
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 7
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 11
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-3">
+                                <div class="form-group">
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 4
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 8
+                                    </label>
+                                  </div>
+                                  <div class="checkbox">
+                                    <label>
+                                      <input type="checkbox" value=""> Característica 12
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <div class="row margin-top-10">
+                            <div class="col-xs-12">
+                              <div class="form-group">
+                                <label for="fichaTecnica" class="telxius-label"> Ficha técnica </label>
+                                
+                                <div id="actions" class="row">
+
+                                <div class="col-lg-7">
+                                  <!-- The fileinput-button span is used to style the file input field as button -->
+                                  <span class="btn btn-success fileinput-button dz-clickable">
+                                      <i class="glyphicon glyphicon-plus"></i>
+                                      <span>Selecionar arquivos...</span>
+                                  </span>
+                                  <button type="submit" class="btn btn-primary start">
+                                      <i class="glyphicon glyphicon-upload"></i>
+                                      <span>Carregar</span>
+                                  </button>
+                                  <button type="reset" class="btn btn-warning cancel">
+                                      <i class="glyphicon glyphicon-ban-circle"></i>
+                                      <span>Cancelar</span>
+                                  </button>
+                                </div>
+
+                                <div class="col-lg-5">
+                                  <!-- The global file processing state -->
+                                  <span class="fileupload-process">
+                                    <div id="total-progress" class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                                      <div class="progress-bar progress-bar-success" style="width:0%;" data-dz-uploadprogress=""></div>
+                                    </div>
+                                  </span>
+                                </div>
+
+                              </div>
+                              
+
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="falhas">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <form>
+                          <div class="row">
+                            <div class="col-xs-3">
+
+                              <div class="form-group">
+                                <label for="dataInclusao" class="telxius-label">Data de inclusão </label>
+                                <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="dataInclusao" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="dataInclusao"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <div class="form-group">
+                                <label for="dataSolucao" class="telxius-label">Data solução </label>
+                                <div class="input-group">
+                                  <input type="text" class="form-control date-picker" id="dataSolucao" placeholder="Selecione uma data...">
+                                  <span class="input-group-btn">
+                                    <label class="btn btn-default" type="button" for="dataSolucao"><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xs-4">
+                              <div class="form-group">
+                                <label for="statusFalha" class="telxius-label"><i class="fa fa-asterisk" aria-hidden="true"></i> Status da falha</label>
+                                <select class="form-control" id="statusFalha">
+                                  <option>Selecione</option>
+                                  <option>Aberta</option>
+                                  <option>Solucionada</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <div class="form-group">
+                                <label for="falhaText" class="telxius-label">Descrição da falha</label>
+                                <textarea id="falhaText" class="form-control" rows="5"></textarea>
+                              </div>
+                            </div>
+                            <div class="col-xs-6">
+                              <div class="form-group">
+                                <label for="solucaoText" class="telxius-label">Descrição da solução</label>
+                                <textarea id="solucaoText" class="form-control" rows="5"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="docs">
+                     <div class="row margin-top-10">
+                        <!-- Change /upload-target to your upload address -->
+                        <form action="/upload-target" class="dropzone"></form>
+
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                            <label for="fichaTecnica" class="telxius-label"> Documentos </label>
+                            
+                            <div id="actions" class="row">
+
+                            <div class="col-lg-7">
+                              <!-- The fileinput-button span is used to style the file input field as button -->
+                              <span class="btn btn-success fileinput-button dz-clickable">
+                                  <i class="glyphicon glyphicon-plus"></i>
+                                  <span>Selecionar arquivos...</span>
+                              </span>
+                              <button type="submit" class="btn btn-primary start">
+                                  <i class="glyphicon glyphicon-upload"></i>
+                                  <span>Carregar</span>
+                              </button>
+                              <button type="reset" class="btn btn-warning cancel">
+                                  <i class="glyphicon glyphicon-ban-circle"></i>
+                                  <span>Cancelar</span>
+                              </button>
+                            </div>
+
+                            <div class="col-lg-5">
+                              <!-- The global file processing state -->
+                              <span class="fileupload-process">
+                                <div id="total-progress" class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                                  <div class="progress-bar progress-bar-success" style="width:0%;" data-dz-uploadprogress=""></div>
+                                </div>
+                              </span>
+                            </div>
+
+                          </div>
+                          
+
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row pull-right margin-top-10">
+                  <div class="col-xs-12">
+                    <button type="submit" class="btn btn-default btn-font">CANCELAR</button>
+                    <button type="submit" class="btn btn-telxius">SALVAR</button>
+                  </div>
+                </div>
+            </div> 
+          </div>
+        </div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <footer>
+      <div class="web-footer-text">© Telxius Telecomunicações - <a href="http://www.telxius.com.br" target="_blank">www.telxius.com</a></div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!--<script src="js/menu-lateral.min.js"></script>-->
+    <script>
+    $(".date-picker").datepicker();
+
+    $(".date-picker").on("change", function () {
+        var id = $(this).attr("id");
+        var val = $("label[for='" + id + "']").text();
+        $("#msg").text(val + " changed");
+    });
+    </script>
+  </body>
+</html>

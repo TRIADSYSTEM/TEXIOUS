@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>TELXIUS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/easyui.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu-vertical.css" rel="stylesheet">
+    <!-- jquery ui -->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <!--fab menu -->
+    <link href="css/mfb.css" rel="stylesheet">
+	
+	<script>
+	function showSubmenu(idItem)
+	{
+		$('.submenu').hide();
+		$('#'+idItem).show();
+	}
+	</script>
+	
+	
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top telxius-menu">
+      <div class="telxius-header">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <button class="btn btn-default navbar-btn yay-toggle" type="button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-bars"></i></button>
+            <a class="navbar-brand" href="index.htm"> <img src="img/logo.png" alt="Logo" width="130"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+               <i class="fa fa-envelope" aria-hidden="true"></i>
+               <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu extended inbox">
+                <div class="notify-arrow notify-arrow-blue"></div>
+                  <li>
+                      <p class="text-center blue">VOCÊ TEM 5 MENSAGENS NOVAS</p>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="photo"><img alt="avatar" src="img/avatar-mini.jpg"></span>
+                          <span class="subject">
+                          <span class="from">Greg  Martin</span>
+                          <span class="time">1 min</span>
+                          </span>
+                          <span class="message">
+                              I really like this admin panel.
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="photo"><img alt="avatar" src="img/avatar-mini2.jpg"></span>
+                          <span class="subject">
+                          <span class="from">Bob   Mckenzie</span>
+                          <span class="time">5 mins</span>
+                          </span>
+                          <span class="message">
+                           Hi, What is next project plan?
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="photo"><img alt="avatar" src="img/avatar-mini3.jpg"></span>
+                          <span class="subject">
+                          <span class="from">Phillip   Park</span>
+                          <span class="time">2 hrs</span>
+                          </span>
+                          <span class="message">
+                              I am like to buy this Admin Template.
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span class="photo"><img alt="avatar" src="img/avatar-mini4.jpg"></span>
+                          <span class="subject">
+                          <span class="from">Ray   Munoz</span>
+                          <span class="time">1 day</span>
+                          </span>
+                          <span class="message">
+                              Icon fonts are great.
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="text-center" href="#">VER TODAS</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                  <span class="profile-ava">
+                      <img alt="" src="img/avatar1_small.jpg">
+                  </span>
+                  <span class="username">Fabio Santos</span>
+                  <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu extended logout">
+                  <div class="log-arrow-up"></div>
+                  <li class="eborder-top">
+                      <a href="#"><i class="icon_profile"></i> Perfil</a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="icon_mail_alt"></i>Mensagens</a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="icon_key_alt"></i> Sair</a>
+                  </li> 
+              </ul>
+            </li>
+          </ul>
+          </div>
+          
+        </div>
+      </div>
+    </nav>
+    <div class="yaybar yay-hide-on-content-click yay-overlay yay-gestures">
+      <div class="nano has-scrollbar">
+        <div class="nano-content" tabindex="0" style="right: -15px;">
+          
+          <ul>
+            <li class="label">Menu</li>
+            <li class="active">
+              <a href="#"><i class="fa fa-dashboard"></i> Dashboard </a>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-indent"></i> Menu Levels<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li>
+                  <a class="yay-sub-toggle" href="#">Second Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                  <ul>
+                    <li>
+                      <a class="yay-sub-toggle" href="#">Third Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                      <ul>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="yay-sub-toggle" href="#">Third Level<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+                      <ul>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                        <li><a href="#">Fourth Level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="label">Elements</li>
+            <li>
+              <a><i class="fa fa-css3"></i> CSS</a>
+            </li>
+
+            <li>
+              <a><i class="fa fa-cubes"></i> UI Elements <span class="badge">7</span></a>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-check-square-o"></i> Forms<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#"><i class="fa fa-cubes"></i> Base Elements</a>
+                </li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i> Checkout</a>
+                </li>
+                <li><a href="#"><i class="fa fa-comment"></i> Contacts</a>
+                </li>
+                <li><a href="#"><i class="fa fa-sign-in"></i> Login</a>
+                </li>
+                <li><a href="#"><i class="fa fa-edit"></i> Register</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-globe"></i> Pages<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#">Profile</a>
+                </li>
+
+                <li><a href="#">Forgot Password</a>
+                </li>
+                <li><a href="#">Screen Lock</a>
+                </li>
+                <li><a href="#">Sign In</a>
+                </li>
+                <li><a href="#">Sign Up</a>
+                </li>
+                <li><a href="#">404</a>
+                </li>
+                <li><a href="#">500</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="yay-sub-toggle"><i class="fa fa-envelope"></i> Mailbox<span class="yay-collapse-icon fa fa-angle-down"></span></a>
+              <ul>
+                <li><a href="#">Inbox</a>
+                </li>
+                <li><a href="#">Compose</a>
+                </li>
+                <li><a href="#">View</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-bar-chart"></i> Charts </a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa fa-magic"></i> Widgets </a>
+            </li>
+
+            <li class="label">Stats</li>
+            <li class="content">
+              <span><i class="fa fa-spinner"></i> Server Load</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  <span class="sr-only">60%</span>
+                </div>
+              </div>
+
+              <span><i class="fa fa-thumbs-o-up"></i> User Satisfaction</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <span class="sr-only">90% Complete (success)</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      <div class="nano-pane"><div class="nano-slider" style="height: 47px; transform: translate(0px, 0px);"></div></div></div>
+    </div>
+    <div class="container-fluid" style="min-height: 600px;">
+      <div class="row">
+        <div class="col-xs-9">
+          <ul id="menu" class="mfb-component--tr mfb-zoomin" data-mfb-toggle="click">
+            <li class="mfb-component__wrap">
+              <a href="#" class="mfb-component__button--main">
+                <i class="mfb-component__main-icon--resting fa fa-ellipsis-v"></i>
+                <i class="mfb-component__main-icon--active fa fa-times"></i>
+              </a>
+              <ul class="mfb-component__list">
+                <li>
+                  <a href="javascript:showSubmenu('busca')" class="mfb-component__button--child" title="Pesquisar">
+                    <i class="mfb-component__child-icon fa fa-search"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:showSubmenu('camadas')" class="mfb-component__button--child" title="Camadas">
+                    <i class="mfb-component__child-icon flaticon-layers-1"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:showSubmenu('tematizacao')" class="mfb-component__button--child" title="Tematização">
+                    <i class="mfb-component__child-icon flaticon-painter-palette"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:showSubmenu('cobertura')" class="mfb-component__button--child" title="Cobertura">
+                    <i class="mfb-component__child-icon fa fa-map"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:showSubmenu('mercado')" class="mfb-component__button--child" title="Mercado">
+                    <i class="mfb-component__child-icon fa fa-line-chart"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:showSubmenu('socioEconomico')" class="mfb-component__button--child" title="Sócio-Economico">
+                    <i class="mfb-component__child-icon flaticon-people"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 no-padding">
+    			<div class="submenu back-search" id="busca">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Pesquisar</h3>
+            </div>
+            <div class="col-xs-12 margin-top-20">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Pesquisar..."/>
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="submenu back-layer" id="camadas">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Camadas</h3>
+            </div>
+            <div class="col-xs-12 no-margin">
+              <h5>TECNOLOGIA</h5>
+            </div>
+            <div class="col-xs-12">
+              <form>
+                <div class="input-group">
+                  <p class="switch-image"><img src="img/line-switch.png"/></p>
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Bordas</p>
+                </div>
+                <div class="input-group">
+                  <p class="switch-image"><img src="img/fibra-switch.png"/></p>
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Fibra</p>
+                </div>
+                <div class="input-group">
+                  <p class="switch-image"><img src="img/dot-switch.png"/></p>
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">IPTV</p>
+                </div>
+                <div class="input-group">
+                  <p class="switch-image"><img src="img/cobre-switch.png"/></p>
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">FTTC</p>
+                </div>
+                <div class="input-group">
+                  <p class="switch-image"><img src="img/movel-switch.png"/></p>
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Móvel</p>
+                </div>
+                <div class="switch-indent">
+                    <div class="input-group">
+                      <p class="switch-image"><img src="img/2g-switch.png"/></p>
+                      <!-- Rounded switch -->
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label>
+                      <p class="switch-text">2G</p>
+                    </div>
+                    <div class="input-group">
+                      <p class="switch-image"><img src="img/3g-switch.png"/></p>
+                      <!-- Rounded switch -->
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label>
+                      <p class="switch-text">3G</p>
+                    </div>
+                    <div class="input-group">
+                      <p class="switch-image"><img src="img/4g-switch.png"/></p>
+                      <!-- Rounded switch -->
+                      <label class="switch">
+                        <input type="checkbox">
+                        <div class="slider round"></div>
+                      </label>
+                      <p class="switch-text">4G</p>
+                    </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-xs-12 no-margin">
+              <h5>IBGE</h5>
+            </div>
+            <div class="col-xs-12">
+              <form>
+                <div class="input-group">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Renda Média</p>
+                </div>
+              </form>
+            </div>
+            <div class="col-xs-12 text-right margin-top-10 margin-bottom-20">
+              <button type="button" class="btn btn-telxius">RELATÓRIO</button>
+            </div>
+          </div>
+    			<div class="submenu back-theme" id="tematizacao">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Tematização</h3>
+            </div>
+            <div class="col-xs-12 margin-top-20">
+              <form>
+                <div class="input-group">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Saturação</p>
+                </div>
+                <div class="input-group">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">CHURN</p>
+                </div>
+                <div class="input-group">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Concorrência</p>
+                </div>
+                <div class="input-group">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                  </label>
+                  <p class="switch-text">Verticalização</p>
+                </div>
+              </form>
+            </div>
+          </div>
+    			<div class="submenu back-roof" id="cobertura">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Cobertura</h3>
+            </div>
+             <div class="col-xs-12 no-margin">
+              <h5>CAPACIDADE INSTALADA</h5>
+            </div>
+            <div class="col-xs-12 margin-bottom-20">AM CHART</div>
+            <!-- tabs -->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs telxius-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#ranking" aria-controls="ranking" role="tab" data-toggle="tab">RANKING</a></li>
+              <li role="presentation"><a href="#exclusiva" aria-controls="exclusiva" role="tab" data-toggle="tab">EXCLUSIVA</a></li>
+              <li role="presentation"><a href="#sobreposta" aria-controls="sobreposta" role="tab" data-toggle="tab">SOBREPOSTA</a></li>
+            </ul>
+            <div class="col-xs-12">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="ranking">
+                    <table class="table table-striped table-advance table-hover tabela-dashboard">
+                           <tbody>
+                              <tr>
+                                 <th>UF</th>
+                                 <th> Disponível</th>
+                                 <th>Saturação</th>
+                                 <th>CHURN</th>
+                                 <th> Sobreposto</th>
+                                
+                              </tr>
+                              <tr>
+                                 <td>SP</td>
+                                 <td>1.879.532</td>
+                                 <td>35,9%</td>
+                                 <td>1,8%</td>
+                                 <td>33,4%</td>
+                                 
+                              </tr>
+                                                          
+                           </tbody>
+                        </table>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="exclusiva">
+                    
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="sobreposta">
+                    
+                  </div>
+                </div>
+            </div>
+
+          </div>
+    			<div class="submenu back-market" id="mercado">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Mercado</h3>
+            </div>
+            <div class="col-xs-12">
+              
+                
+
+            </div>
+
+          </div>
+    			<div class="submenu back-economy" id="socioEconomico">
+            <div class="col-xs-12 line-header">
+                <h3><button type="button" class="btn btn-default btn-sm">Voltar</button> Sócio-Econômico</h3>
+            </div>
+          </div><!-- FECHANDO .submenu -->
+        </div>
+		  </div> <!-- FECHANDO .back-search -->
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/menu-lateral.min.js"></script>
+    <script src="js/mfb.js"></script>
+    <script src="js/modernizr.touch.js"></script>
+    <script>
+    $(".date-picker").datepicker();
+
+    $(".date-picker").on("change", function () {
+        var id = $(this).attr("id");
+        var val = $("label[for='" + id + "']").text();
+        $("#msg").text(val + " changed");
+    });
+    </script>
+  </body>
+</html>

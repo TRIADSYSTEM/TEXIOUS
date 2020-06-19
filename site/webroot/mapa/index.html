@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8"/>
+    <title>Maps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/js/leaflet/css/leaflet.css" />
+    <link rel="stylesheet" href="assets/js/sidebar/css/sidebar.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <script src="assets/js/jquery/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/angular/angular.1.5.8.min.js"></script>
+    <script src="assets/js/leaflet/leaflet.js"></script>
+    <script src="assets/js/sidebar/sidebar.js"></script>
+</head>
+<body style="margin:0;">
+
+    <ng-include src="'client/app/view/sidebar/sidebar.html'"></ng-include>
+    <ng-include src="'client/app/view/map/map.html'"></ng-include>
+    <ng-include src="'client/app/view/tools/fullscreen.html'"></ng-include>
+
+
+    <!-- <script src="build/config.js"></script> -->
+    <!-- <script src="build/app.js"></script> -->
+
+    <script src="client/core/config/layerConfig.js"></script>
+    <script src="client/core/config/mapConfig.js"></script>
+
+    <script src="client/app.js"></script>
+    <script src="client/appModel.js"></script>
+    <script src="client/appController.js"></script>
+    <script src="client/app/factory/mapFactory.js"></script>
+    <script src="client/app/controller/MapController.js"></script>
+
+</body>
+</html>

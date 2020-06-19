@@ -1,0 +1,30 @@
+{
+  "name": "Telxius",
+  "version": "0.1.0",
+  "description": "AngularJS Skeleton App",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install -g gulp-cli && npm install",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/patrykmoura"
+  },
+  "author": "Patryk Moura  <patrykmoura@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/patrykmoura"
+  },
+  "homepage": "https://gitlab.com/patrykmoura",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "amcharts": "^3.14.5",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1",
+    "jquery-mask-plugin": "^1.14.0"
+  }
+}
